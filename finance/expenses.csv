@@ -1,2 +1,234 @@
 date,description,amount,currency,category
-2026-02-03,Example: Groceries,150,GEL,Food
+2025-12-16,"Taxis on Booking, United Kingdom of Great Britain and Northern Ireland",24.71,GBP,Transport
+2025-12-16,"STEAMGAMES.COM 4259522985, United States of America",24.12,GEL,Entertainment
+2025-12-16,"BKG*HOTEL AT BOOKING.C, Netherlands",1064.4,EUR,Entertainment
+2025-12-17,"nikora, Tbilisi, nutsuvidze IV mr permcerta 31",23.31,GEL,Food
+2025-12-17,"Varazi LTD 37, Tbilisi, avTo varazis 37",31.33,GEL,Food
+2025-12-17,"City mall parking, Tbilisi, vaja-pshavela av. 70",5.0,GEL,Transport
+2025-12-17,"JYSK, Tbilisi, vaja-pshavela av. 70",599.35,GEL,Home
+2025-12-17,"pizzeria tutto bene ll, Georgia",35.0,GEL,Food
+2025-12-17,"glovoapp, Georgia",8.99,GEL,Food
+2025-12-18,"YANDEX.GO, Tbilisi, Khetagurovis q 36",20.5,GEL,Transport
+2025-12-18,"Nikora, Tbilisi, 28,VAZHA-FSHAVELA AVE.",52.65,GEL,Food
+2025-12-18,"Tbilisi Parking Services, Tbilisi, საქართველო, ძველი თბილისი, ქუჩა/მასივი: სულხან-საბას ქ. # 5/1, სახლის/კორპუსის ნომერი: .",10.5,GEL,Kid
+2025-12-18,"magticom, Georgia",35.0,GEL,Utilities
+2025-12-18,"Wolt, Tbilisi, 61 Agmashenebeli ave. Tbilisi Georgia",39.43,GEL,Food
+2025-12-18,"Wolt, Tbilisi, 61 Agmashenebeli ave. Tbilisi Georgia",67.89,GEL,Food
+2025-12-19,"nikora, Tbilisi, nutsuvidze IV mr permcerta 31",67.91,GEL,Food
+2025-12-19,"jambo coffee, Georgia",6.5,GEL,Food
+2025-12-19,"jambo coffee, Georgia",5.0,GEL,Food
+2025-12-19,"OZON, Kazakhstan",88.67,USD,Other
+2025-12-20,"marketi lisi, Mtskheta, sofeli lisi #1",22.3,GEL,Food
+2025-12-20,"market, Tbilisi, lisi",8.75,GEL,Food
+2025-12-20,"WL *STEAM PURCHASE, United States of America",9.74,GEL,Entertainment
+2025-12-21,"SPAR, Tbilisi, k. marjanishvili st  33",6.5,GEL,Food
+2025-12-21,"Tbilisi Parking Services, Tbilisi, საქართველო, ძველი თბილისი, ქუჩა/მასივი: სულხან-საბას ქ. # 5/1, სახლის/კორპუსის ნომერი: .",10.5,GEL,Kid
+2025-12-21,"Spar, Tbilisi, yazbegis 25",25.94,GEL,Food
+2025-12-21,"Kindle Svcs*O28DO87B3, United States of America",5.99,USD,Entertainment
+2025-12-21,"P/E VERIKO TABIDZE, Georgia",7.0,GEL,Food
+2025-12-21,"STEAMGAMES.COM 4259522985, United States of America",4.32,GEL,Entertainment
+2025-12-21,"P/E VERIKO TABIDZE, Georgia",7.0,GEL,Food
+2025-12-22,"Ori Nabiji, Tbilisi, nutsubidze 4mr",5.25,GEL,Food
+2025-12-22,"Zoomart a.varazis 63, Tbilisi, avTo varazis 63",228.6,GEL,Pets
+2025-12-22,"i.m Giorgi Phochkhua, Tbilisi, avTo varazis 33",16.5,GEL,Food
+2025-12-22,"Varazi LTD 37, Tbilisi, avTo varazis 37",3.25,GEL,Food
+2025-12-22,"nikora, Tbilisi, nutsuvidze IV mr permcerta 31",81.04,GEL,Food
+2025-12-22,"GOOGLE *Google One, United States of America",8.0,GEL,Entertainment
+2025-12-23,"Wolt, Tbilisi, 61 Agmashenebeli ave. Tbilisi Georgia",61.98,GEL,Food
+2025-12-23,"Wolt, Tbilisi, 61 Agmashenebeli ave. Tbilisi Georgia",33.85,GEL,Food
+2025-12-24,"Temu, Ireland",297.92,GEL,Other
+2025-12-24,"BAHO, Tbilisi, Tbilisi, yazbegis 41",23.8,GEL,Food
+2025-12-24,"Carrefour, Tbilisi, Agmashenebeli al. 16 km",536.99,GEL,Food
+2025-12-24,"top toys, Tbilisi, aRmaSeneblis xeivani(Tbilisi mall)",25.0,GEL,Kid
+2025-12-24,"Wendys, Tbilisi, 16km agmashenebeli",32.0,GEL,Food
+2025-12-24,"marketi lisi, Mtskheta, sofeli lisi #1",40.9,GEL,Food
+2025-12-25,"KAFE SHUKURA, Tbilisi, irakli abaSiZis 49",44.0,GEL,Food
+2025-12-25,"Nikora, Tbilisi, Tkhinvala",27.76,GEL,Food
+2025-12-25,"GFN.AM, Armenia",9.99,USD,Entertainment
+2025-12-26,"Tbilisi Parking Services, Tbilisi, საქართველო, ძველი თბილისი, ქუჩა/მასივი: სულხან-საბას ქ. # 5/1, სახლის/კორპუსის ნომერი: .",10.5,GEL,Kid
+2025-12-26,"I/M ANNA SMARAGDINA, Georgia",34.5,GEL,Food
+2025-12-26,"tbilisi tbilisi, Tbilisi, Tbilisi janaSias 19",225.0,GEL,Clothes
+2025-12-26,"YANDEX.GO, Tbilisi, Khetagurovis q 36",5.8,GEL,Transport
+2025-12-26,"YANDEX.GO, Tbilisi, Khetagurovis q 36",11.6,GEL,Transport
+2025-12-26,"McDonald's, Tbilisi, goTuas 7",21.5,GEL,Food
+2025-12-27,"Nikora, Tbilisi, Tkhinvala",44.16,GEL,Food
+2025-12-27,"LC Waikiki, Tbilisi, vaja-pshavela av. 70",19.5,GEL,Clothes
+2025-12-27,"Pull & Bear, Tbilisi, 1 kavtaradze str",69.0,GEL,Clothes
+2025-12-27,"skechers, Tbilisi, 1 kavtaradze str",319.2,GEL,Clothes
+2025-12-27,"KFC 001 Goodwill, Georgia",35.9,GEL,Food
+2025-12-27,"subway, Tbilisi, 70, vazha pshavela ave",9.15,GEL,Food
+2025-12-27,"Portal, Mtskheta, lisi",170.9,GEL,Transport
+2025-12-27,"TB10, Georgia",25.8,GEL,Food
+2025-12-28,"1, Mtskheta, mcxeTis raioni sof. lisi",18.75,GEL,Food
+2025-12-28,"ZOOMMER, Tbilisi, 37M,CHAVCHAVADZE STR.",189.0,GEL,Entertainment
+2025-12-28,"SPAR, Tbilisi, k. marjanishvili st  33",6.2,GEL,Food
+2025-12-28,"Spar, Tbilisi, yazbegis 25",42.95,GEL,Food
+2025-12-28,"P/E VERIKO TABIDZE, Georgia",7.0,GEL,Food
+2025-12-29,"clean house, Tbilisi, 16, a.varazi st.",55.1,GEL,Food
+2025-12-29,"Amboli, Tbilisi, 16,QAVTARADZE STR.",80.0,GEL,Home
+2025-12-29,"Wolt, Tbilisi, 61 Agmashenebeli ave. Tbilisi Georgia",40.81,GEL,Food
+2025-12-29,"Wolt, Tbilisi, 61 Agmashenebeli ave. Tbilisi Georgia",87.48,GEL,Food
+2025-12-30,"Tb.Inter.Airport, Tbilisi, AUTO PARKING AVTOSADGOMI",5.0,GEL,Transport
+2025-12-30,"McDonald's, Tbilisi, goTuas 7",21.15,GEL,Food
+2025-12-30,"marketi lisi, Mtskheta, sofeli lisi #1",41.55,GEL,Food
+2025-12-30,"Wolt, Tbilisi, 61 Agmashenebeli ave. Tbilisi Georgia",102.98,GEL,Food
+2025-12-30,"PAYPAL *GITHUB INC, United States of America",10.0,USD,Entertainment
+2025-12-30,"p/e kakhaber gogitidze, Georgia",5.0,GEL,Food
+2025-12-31,"SPAR, Tbilisi, amaglebis 12",39.02,GEL,Food
+2025-12-31,"Tbilisi Parking Services, Tbilisi, საქართველო, ძველი თბილისი, ქუჩა/მასივი: სულხან-საბას ქ. # 5/1, სახლის/კორპუსის ნომერი: .",10.5,GEL,Kid
+2025-12-31,"Yandex.Go Scooters, Tbilisi, khetagurovis 36",3.0,GEL,Transport
+2025-12-31,"Europroduct, Tbilisi, 16, avto varazi st.",7.2,GEL,Food
+2025-12-31,"i.m Giorgi Phochkhua, Tbilisi, avTo varazis 33",31.8,GEL,Food
+2025-12-31,"Varazi LTD 37, Tbilisi, avTo varazis 37",31.2,GEL,Food
+2025-12-31,"nikora, Tbilisi, nutsuvidze IV mr permcerta 31",70.55,GEL,Food
+2025-12-31,"LTD SURNELI, Georgia",53.4,GEL,Other
+2026-01-01,"Gulo's Thermal Spa, Tbilisi, griSaSvilis 3",400.0,GEL,Entertainment
+2026-01-01,"YANDEX.GO, Tbilisi, Khetagurovis q 36",17.0,GEL,Transport
+2026-01-01,"YANDEX.GO, Tbilisi, Khetagurovis q 36",15.4,GEL,Transport
+2026-01-02,EP Georgia Supply (utilities),59.49,GEL,Utilities
+2026-01-02,"McDonald's vaja-fshave, Georgia",29.1,GEL,Food
+2026-01-02,"Vape room N2, Tbilisi, kostavas 9",23.0,GEL,Other
+2026-01-02,"TBILISI PARKI, Tbilisi, mtawmindis zeda plato",50.0,GEL,Kid
+2026-01-02,"Baltic Textile Trading, Tbilisi, Rustavelis 32",6.1,GEL,Clothes
+2026-01-03,Tbilisi Bus,1.0,GEL,Transport
+2026-01-03,→ DALAKISHVILI ANA (Private transfer),1500.0,USD,Rent
+2026-01-03,"Nikora, Tbilisi, 52,VAZHA-FSHAVELA STR.",18.43,GEL,Food
+2026-01-03,"WRAP MASTER, Tbilisi, vaJa fSavelas 60",14.6,GEL,Food
+2026-01-03,"OnePrice, Tbilisi, vazha-pshavelas 64",23.36,GEL,Food
+2026-01-03,"KAFE SHUKURA, Tbilisi, irakli abaSiZis 49",19.0,GEL,Food
+2026-01-03,"magticom, Georgia",35.0,GEL,Utilities
+2026-01-03,"KAFE SHUKURA, Tbilisi, irakli abaSiZis 49",11.0,GEL,Food
+2026-01-03,"KAFE SHUKURA, Tbilisi, irakli abaSiZis 49",86.0,GEL,Food
+2026-01-04,"Ori Nabiji, Tbilisi, leo kvaWaZis 19a",7.23,GEL,Food
+2026-01-04,"Vip Pay, Tbilisi, Khetagurovis q 36",0.2,GEL,Other
+2026-01-04,"Google yiotro, United States of America",9.0,GEL,Entertainment
+2026-01-04,"Vip Pay, Tbilisi, Khetagurovis q 36",11.7,GEL,Other
+2026-01-04,"Lukoil, Khashuri, stalinis 145",167.96,GEL,Transport
+2026-01-04,"McDonald s draivi, Georgia",65.55,GEL,Food
+2026-01-04,"TpayLLC*silknet, Georgia",100.0,GEL,Utilities
+2026-01-05,"Nikora, Akhaltsikhe, 18, Kostava st.",20.36,GEL,Food
+2026-01-05,"Nikora, Akhaltsikhe, 51 Kostava St.",62.4,GEL,Food
+2026-01-06,TbilisiEnergy (electricity),419.89,GEL,Utilities
+2026-01-07,"Biblusi, Akhaltsikhe, kostavas 32",9.49,GEL,Other
+2026-01-07,"SPAR, Akhaltsikhe, Akhaltsikhe, kostavas 29",22.37,GEL,Food
+2026-01-07,"Biblusi, Akhaltsikhe, kostavas 32",6.99,GEL,Other
+2026-01-08,"glovoapp, Georgia",87.37,GEL,Food
+2026-01-08,"glovoapp, Georgia",203.79,GEL,Food
+2026-01-08,"Temu, Ireland",198.72,GEL,Other
+2026-01-08,"Zoomart a.varazis 63, Tbilisi, avTo varazis 63",228.6,GEL,Pets
+2026-01-08,"WAY MART, Kareli, Kareli .sof.urbnisi",22.85,GEL,Food
+2026-01-08,"WAY MART, Kareli, Kareli .sof.urbnisi",22.85,GEL,Food
+2026-01-08,"SPAR, Akhaltsikhe, Akhaltsikhe, kostavas 29",32.86,GEL,Food
+2026-01-08,"WAY MART, Kareli, Kareli .sof.urbnisi",14.15,GEL,Food
+2026-01-08,"CURSOR, AI POWERED IDE, United States of America",20.0,USD,Entertainment
+2026-01-09,"glovoapp, Georgia",63.85,GEL,Food
+2026-01-09,"Nikora, Tbilisi, Tkhinvala",124.67,GEL,Food
+2026-01-09,"TPL.GE, Tbilisi, თბილისი, ვაკე საბურთალო, ქუჩა/მასივი: ზ. ფალიაშვილის83 /ი. მოსაშვილის24, სახლის/კორპუსის ნომერი: .",295.0,GEL,Other
+2026-01-09,"TPL.GE, Tbilisi, თბილისი, ვაკე საბურთალო, ქუჩა/მასივი: ზ. ფალიაშვილის83 /ი. მოსაშვილის24, სახლის/კორპუსის ნომერი: .",295.0,GEL,Other
+2026-01-11,"GOOGLE *YouTubePremium, United States of America",33.29,GEL,Entertainment
+2026-01-11,"Tbilisi Parking Services, Tbilisi, საქართველო, ძველი თბილისი, ქუჩა/მასივი: სულხან-საბას ქ. # 5/1, სახლის/კორპუსის ნომერი: .",10.5,GEL,Kid
+2026-01-11,"marketi lisi, Mtskheta, sofeli lisi #1",11.0,GEL,Food
+2026-01-11,"ltd two dzma 2, Georgia",21.0,GEL,Food
+2026-01-11,"Nikora, Mtskheta, lisi mukhattskaros asakhvevi",50.21,GEL,Food
+2026-01-11,"glovoapp, Georgia",61.82,GEL,Food
+2026-01-12,"STEAMGAMES.COM 4259522985, United States of America",28.02,GEL,Entertainment
+2026-01-13,"marketi lisi, Mtskheta, sofeli lisi #1",24.0,GEL,Food
+2026-01-13,"Nikora, Tbilisi, Tkhinvala",46.48,GEL,Food
+2026-01-13,"i.m Giorgi Phochkhua, Tbilisi, avTo varazis 33",80.9,GEL,Food
+2026-01-14,"Yandex.Go Scooters, Tbilisi, khetagurovis 36",1.0,GEL,Transport
+2026-01-14,"Yandex.Go Scooters, Tbilisi, khetagurovis 36",2.0,GEL,Transport
+2026-01-14,"Spar, Tbilisi, yazbegis 25",15.88,GEL,Food
+2026-01-14,"SPAR, Georgia",19.78,GEL,Food
+2026-01-14,"mcdonald s, Georgia",26.2,GEL,Food
+2026-01-15,"OPENAI *CHATGPT SUBSCR, United States of America",23.6,USD,Entertainment
+2026-01-16,Traffic Penalty,100.0,GEL,Other
+2026-01-16,"glovoapp, Georgia",93.59,GEL,Food
+2026-01-16,"MAGNITI, Mtskheta, sop lisi",21.9,GEL,Food
+2026-01-16,"marketi lisi, Mtskheta, sofeli lisi #1",25.3,GEL,Food
+2026-01-16,"McDonald's, Tbilisi, goTuas 7",21.5,GEL,Food
+2026-01-17,"Temu, Ireland",62.28,GEL,Other
+2026-01-17,"magticom, Georgia",35.0,GEL,Utilities
+2026-01-17,"magticom, Georgia",10.0,GEL,Utilities
+2026-01-17,"marketi lisi, Mtskheta, sofeli lisi #1",17.9,GEL,Food
+2026-01-17,"Portal, Mtskheta, lisi",175.31,GEL,Transport
+2026-01-17,"glovoapp, Georgia",8.99,GEL,Food
+2026-01-17,"MICROSOFT*STORE, Ireland",29.99,USD,Entertainment
+2026-01-18,"mcdonald s, Georgia",78.3,GEL,Food
+2026-01-18,"SPAR, Tbilisi, 26 maisis mimdebare teritoria",8.29,GEL,Food
+2026-01-18,"Gulo's Thermal Spa, Tbilisi, griSaSvilis 3",300.0,GEL,Entertainment
+2026-01-18,"McDonald's, Tbilisi, NEAR SPORT CASTLE",9.75,GEL,Food
+2026-01-18,"mcdonald s, Georgia",25.3,GEL,Food
+2026-01-18,"PEBBLEHOST* I5014874, United Kingdom of Great Britain and Northern Ireland",12.0,USD,Entertainment
+2026-01-19,"Nikora, Tbilisi, Tkhinvala",37.63,GEL,Food
+2026-01-19,"marketi lisi, Mtskheta, sofeli lisi #1",29.5,GEL,Food
+2026-01-19,"WL *STEAM PURCHASE, United States of America",26.92,GEL,Entertainment
+2026-01-20,"BOLT TAXI, Tbilisi, 142 beliashvili str",25.4,GEL,Transport
+2026-01-20,"SPAR, Tbilisi, k. marjanishvili st  33",5.48,GEL,Food
+2026-01-20,"Nikora, Mtskheta, lisi mukhattskaros asakhvevi",40.59,GEL,Food
+2026-01-20,"biletebi.ge, Tbilisi, 29 KAZBEGI AVE, FL 6",636.0,GEL,Entertainment
+2026-01-20,"DUBROVNIKSUN HR, Croatia",420.0,EUR,Entertainment
+2026-01-21,"Oda 2025, Tbilisi, 33 Permtserta",14.5,GEL,Food
+2026-01-21,"nikora, Tbilisi, nutsuvidze IV mr permcerta 31",138.26,GEL,Food
+2026-01-21,"i.m Giorgi Phochkhua, Tbilisi, avTo varazis 33",92.5,GEL,Food
+2026-01-22,"KAFE SHUKURA, Tbilisi, irakli abaSiZis 49",30.0,GEL,Food
+2026-01-22,"GOOGLE *Google One, United States of America",8.0,GEL,Entertainment
+2026-01-23,"Europroduct, Tbilisi, 16, avto varazi st.",28.84,GEL,Food
+2026-01-23,"Nikora, Tbilisi, Tkhinvala",11.47,GEL,Food
+2026-01-23,"Zoomart a.varazis 63, Tbilisi, avTo varazis 63",228.6,GEL,Pets
+2026-01-23,"Anate, Tbilisi, Nutsubidze plato 4 ,nakveti 40",45.0,GEL,Home
+2026-01-24,"ltd arena, Georgia",8.0,GEL,Pets
+2026-01-24,"arena, Tbilisi, universiteti 2",45.0,GEL,Pets
+2026-01-24,"Yandex.Go Scooters, Tbilisi, khetagurovis 36",3.0,GEL,Transport
+2026-01-24,"SPAR, Tbilisi, Vaja-Fshavela ave N 48",4.64,GEL,Food
+2026-01-24,"DUNKIN', Tbilisi, Metro V. Phshavela",5.0,GEL,Food
+2026-01-24,"Tbilisi Parking Services, Tbilisi, საქართველო, ძველი თბილისი, ქუჩა/მასივი: სულხან-საბას ქ. # 5/1, სახლის/კორპუსის ნომერი: .",15.5,GEL,Kid
+2026-01-24,"McDonald's vaja-fshavela, Georgia",30.45,GEL,Food
+2026-01-24,"ltd arena, Georgia",18.0,GEL,Pets
+2026-01-24,"GFN.AM, Armenia",9.99,USD,Entertainment
+2026-01-25,"marketi lisi, Mtskheta, sofeli lisi #1",30.6,GEL,Food
+2026-01-25,"marketi lisi, Mtskheta, sofeli lisi #1",16.8,GEL,Food
+2026-01-25,"SPAR, Tbilisi, k. marjanishvili st  33",7.25,GEL,Food
+2026-01-25,"glovoapp, Georgia",40.74,GEL,Food
+2026-01-25,"WRAP MASTER, Tbilisi, nucubiZis q 96 a",26.8,GEL,Food
+2026-01-26,"Nikora, Tbilisi, 28,VAZHA-FSHAVELA AVE.",33.95,GEL,Food
+2026-01-26,"Spar, Tbilisi, yazbegis 25",15.97,GEL,Food
+2026-01-26,"Pulman Tbilisi-Reception, Tbilisi, chavchavadze N37",512.53,GEL,Entertainment
+2026-01-26,"McDonald's, Tbilisi, goTuas 7",16.65,GEL,Food
+2026-01-26,"jambo coffee, Georgia",5.0,GEL,Food
+2026-01-26,"WL *STEAM PURCHASE, United States of America",40.88,GEL,Entertainment
+2026-01-26,"STEAMGAMES.COM 4259522985, United States of America",7.92,GEL,Entertainment
+2026-01-27,"Tbilisi Parking Services, Tbilisi, საქართველო, ძველი თბილისი, ქუჩა/მასივი: სულხან-საბას ქ. # 5/1, სახლის/კორპუსის ნომერი: .",10.5,GEL,Kid
+2026-01-27,"nikora, Tbilisi, nutsuvidze IV mr permcerta 31",33.33,GEL,Food
+2026-01-27,"Oda 2025, Tbilisi, 33 Permtserta",2.0,GEL,Food
+2026-01-27,"jambo coffee, Georgia",6.5,GEL,Food
+2026-01-27,"jambo coffee, Georgia",5.0,GEL,Food
+2026-01-28,"SPAR, Tbilisi, bulachauri st N1a",4.58,GEL,Food
+2026-01-28,"Nikora, Tbilisi, Tkhinvala",24.4,GEL,Food
+2026-01-28,"WRAP MASTER, Tbilisi, nucubiZis q 96 a",23.8,GEL,Food
+2026-01-29,"Spar, Tbilisi, yazbegis 25",7.59,GEL,Food
+2026-01-29,"Animal Planet, Tbilisi, merab kostavas 13",233.3,GEL,Pets
+2026-01-29,"Spar, Tbilisi, yazbegis 25",9.54,GEL,Food
+2026-01-29,"Spar, Tbilisi, yazbegis 25",7.34,GEL,Food
+2026-01-29,"Yandex.Go Scooters, Tbilisi, khetagurovis 36",1.0,GEL,Transport
+2026-01-29,"McDonald's, Tbilisi, vaJa-fSavelas gamziri N42-44",36.7,GEL,Food
+2026-01-29,"Yandex.Go Scooters, Tbilisi, khetagurovis 36",1.0,GEL,Transport
+2026-01-29,"Spar, Tbilisi, yazbegis 25",25.57,GEL,Food
+2026-01-29,"YANDEX.GO, Tbilisi, Khetagurovis q 36",10.5,GEL,Transport
+2026-01-29,"Wolt, Tbilisi, 61 Agmashenebeli ave. Tbilisi Georgia",69.08,GEL,Food
+2026-01-29,"Portal, Mtskheta, lisi",176.31,GEL,Transport
+2026-01-30,"glovoapp, Georgia",111.49,GEL,Food
+2026-01-30,"Tbilisi Parking Services, Tbilisi, საქართველო, ძველი თბილისი, ქუჩა/მასივი: სულხან-საბას ქ. # 5/1, სახლის/კორპუსის ნომერი: .",10.5,GEL,Kid
+2026-01-30,"McDonald's, Tbilisi, goTuas 7",20.6,GEL,Food
+2026-01-30,"p/e kakhaber gogitidze, Georgia",5.0,GEL,Food
+2026-01-30,"p/e kakhaber gogitidze, Georgia",5.0,GEL,Food
+2026-01-31,"Nikora, Mtskheta, lisi mukhattskaros asakhvevi",64.85,GEL,Food
+2026-01-31,"Pharmadepot, Marneuli, 26 Maisi St.",9.52,GEL,Health
+2026-02-01,"sisters flowers, Tbilisi, universitetis 1",200.0,GEL,Other
+2026-02-01,"Nikora, Tbilisi, Nutsubidze 2 mr 1 kv korp 3",64.54,GEL,Food
+2026-02-01,"ltd two dzma 2, Georgia",38.0,GEL,Food
+2026-02-01,"marketi lisi, Mtskheta, sofeli lisi #1",17.3,GEL,Food
+2026-02-01,"jambo coffee, Georgia",6.5,GEL,Food
+2026-02-01,"jambo coffee, Georgia",5.0,GEL,Food
+2026-02-01,"jambo coffee, Georgia",5.0,GEL,Food
+2026-02-02,"nikora, Tbilisi, nutsuvidze IV mr permcerta 31",13.88,GEL,Food
+2026-02-02,"i.m Giorgi Phochkhua, Tbilisi, avTo varazis 33",15.7,GEL,Food
