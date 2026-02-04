@@ -3,8 +3,8 @@
   "type": "module",
   "scripts": {
     "prepare-data": "tsx scripts/prepare-data.ts",
-    "build": "npm run prepare-data && vite build",
-    "dev": "npm run prepare-data && vite",
+    "build": "pnpm run prepare-data && vite build",
+    "dev": "pnpm run prepare-data && vite",
     "preview": "vite preview"
   },
   "devDependencies": {
