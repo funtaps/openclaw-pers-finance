@@ -1,0 +1,16 @@
+{
+  "name": "funtov-finance-dashboard",
+  "type": "module",
+  "scripts": {
+    "prepare-data": "tsx scripts/prepare-data.ts",
+    "build": "npm run prepare-data && vite build",
+    "dev": "npm run prepare-data && vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "vite": "^6.0.0"
+  }
+}
