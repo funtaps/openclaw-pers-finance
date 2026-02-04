@@ -26,7 +26,106 @@ h1 {
 .subtitle {
   color: #888;
   font-size: 14px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+}
+
+/* ─── Filters ──────────────────────────────────────────────────────────────── */
+.filters {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  background: #fff;
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filter-group label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #999;
+}
+
+.pills {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #6b7280;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.pill:hover {
+  border-color: #d1d5db;
+}
+
+.pill.active {
+  background: #eef2ff;
+  border-color: #a5b4fc;
+  color: #4338ca;
+  font-weight: 500;
+}
+
+.date-range {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.date-range input[type="date"] {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  color: #333;
+  background: #fff;
+  cursor: pointer;
+}
+
+.date-range input[type="date"]:focus {
+  outline: none;
+  border-color: #a5b4fc;
+  box-shadow: 0 0 0 2px #eef2ff;
+}
+
+.date-range span {
+  color: #aaa;
+}
+
+.btn-reset {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 5px 14px;
+  font-size: 13px;
+  color: #6b7280;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: all 0.15s;
+}
+
+.btn-reset:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
 }
 
 /* ─── Card ─────────────────────────────────────────────────────────────────── */
@@ -41,24 +140,46 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
+  padding: 14px 20px;
   border-bottom: 1px solid #eee;
 }
 
 .table-header h2 {
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.table-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.table-totals {
+  display: flex;
+  gap: 12px;
+}
+
+.total-item {
+  font-size: 13px;
+  color: #555;
+}
+
+.total-item strong {
+  color: #333;
   font-weight: 600;
 }
 
 .table-count {
   font-size: 13px;
   color: #999;
+  white-space: nowrap;
 }
 
 /* ─── Table ────────────────────────────────────────────────────────────────── */
 .table-wrap {
   overflow-x: auto;
-  max-height: 70vh;
+  max-height: 65vh;
   overflow-y: auto;
 }
 
@@ -79,9 +200,9 @@ th {
   text-align: left;
   padding: 10px 16px;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.5px;
   color: #888;
   border-bottom: 2px solid #eee;
   white-space: nowrap;
@@ -138,7 +259,15 @@ tr:hover { background: #fafcff; }
 
 .badge.type {
   background: #f3f4f6;
-  color: #666;
+  color: #6b7280;
   border-color: #e5e7eb;
   font-weight: 500;
+}
+
+/* ─── Empty state ──────────────────────────────────────────────────────────── */
+.empty {
+  text-align: center;
+  padding: 40px;
+  color: #aaa;
+  font-size: 14px;
 }

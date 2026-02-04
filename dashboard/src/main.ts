@@ -1,7 +1,7 @@
 import './style.css'
 import data from './data.json'
 import type { DashboardData } from './types'
-import { renderTable } from './table'
+import { renderTable, initFilters } from './table'
 
 const { expenses } = data as DashboardData
 
@@ -12,3 +12,5 @@ app.innerHTML = `
   <p class="subtitle">${expenses.length} expenses · ${new Set(expenses.map(e => e.category)).size} categories</p>
   ${renderTable(expenses)}
 `
+
+initFilters()
