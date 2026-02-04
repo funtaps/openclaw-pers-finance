@@ -25,6 +25,37 @@ VALID_CATEGORIES = [
     "Health","Kid","Pets","Clothes","Home","Other","Rent","Cash",
 ]
 
+# ─── Type tagging (monthly / yearly / oneoff) ────────────────────────────────
+TYPE_CAT_DEFAULTS = {
+    "Food":"monthly", "Transport":"monthly", "Utilities":"monthly",
+    "Pets":"monthly", "Kid":"monthly", "Rent":"monthly", "Health":"monthly",
+    "Clothes":"oneoff", "Other":"oneoff", "Entertainment":"oneoff", "Home":"oneoff",
+}
+TYPE_YEARLY  = ["warehouse moscow", "yandex subscription"]
+TYPE_MONTHLY = [
+    "google", "youtube", "magticom", "silknet",
+    "chatgpt", "openai", "github", "cursor", "gfn",
+    "tbilisienergy", "ep georgia supply", "cleaning service",
+    "supervision", "mashkova", "robolaboratoria", "kid (alfa)",
+    "steam", "pebblehost", "parking",
+]
+TYPE_ONEOFF  = [
+    "temu", "ozon", "kindle", "microsoft",
+    "hotel", "bkg", "dubrovnik", "pulman",
+    "evrokom", "gulo", "biletebi",
+    "sisters flowers", "birthday present",
+    "top toys", "tbilisi parki,",
+    "zoommer", "jysk", "skechers", "pull & bear", "lc waikiki",
+    "anate", "traffic penalty",
+]
+
+def assign_type(description, category):
+    dl = description.lower()
+    if any(p in dl for p in TYPE_YEARLY):  return "yearly"
+    if any(p in dl for p in TYPE_MONTHLY): return "monthly"
+    if any(p in dl for p in TYPE_ONEOFF):  return "oneoff"
+    return TYPE_CAT_DEFAULTS.get(category, "oneoff")
+
 # ─── Category mappings ───────────────────────────────────────────────────────
 # MCC → category
 MCC_CAT = {
@@ -382,15 +413,16 @@ def cmd_parse(filepath):
         if EXPENSES_PATH.exists():
             existing_lines = EXPENSES_PATH.read_text().strip().split("\n")
             if len(existing_lines) <= 2 and any("Example" in l for l in existing_lines):
-                EXPENSES_PATH.write_text("date,description,amount,currency,category\n")
+                EXPENSES_PATH.write_text("date,description,amount,currency,category,type\n")
         else:
-            EXPENSES_PATH.write_text("date,description,amount,currency,category\n")
+            EXPENSES_PATH.write_text("date,description,amount,currency,category,type\n")
 
         with open(EXPENSES_PATH, "a", newline="") as f:
             w = csv.writer(f)
             for t in sorted(auto, key=lambda x: x["date"]):
+                typ = assign_type(t["description"], t["category"])
                 w.writerow([t["date"], t["description"],
-                            round(t["amount"], 2), t["currency"], t["category"]])
+                            round(t["amount"], 2), t["currency"], t["category"], typ])
         print(f"\n💾 {len(auto)} expenses saved")
 
     # ── Save flagged ─────────────────────────────────────────────────────────
@@ -473,8 +505,9 @@ def cmd_approve(args):
         with open(EXPENSES_PATH, "a", newline="") as f:
             w = csv.writer(f)
             for item in approved:
+                typ = assign_type(item["description"], item["category"])
                 w.writerow([item["date"], item["description"],
-                            round(item["amount"], 2), item["currency"], item["category"]])
+                            round(item["amount"], 2), item["currency"], item["category"], typ])
         print(f"\n💾 {len(approved)} expense(s) saved")
 
     # Update flagged + merchant map
