@@ -2,7 +2,9 @@
   "updated": "2026-02-03",
   "rates": {
     "RUB_USD": 76.73,
-    "GEL_USD": 2.69
+    "GEL_USD": 2.69,
+    "EUR_USD": 1.08,
+    "GBP_USD": 1.27
   },
   "accounts": [
     {"name": "Alfa - Current (salary)", "currency": "RUB", "balance": 570000},

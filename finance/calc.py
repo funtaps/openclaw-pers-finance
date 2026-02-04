@@ -34,6 +34,10 @@ def to_usd(amount, currency, rates):
         return amount / rates["RUB_USD"]
     elif currency == "GEL":
         return amount / rates["GEL_USD"]
+    elif currency == "EUR":
+        return amount * rates.get("EUR_USD", 1.08)
+    elif currency == "GBP":
+        return amount * rates.get("GBP_USD", 1.27)
     else:
         raise ValueError(f"Unknown currency: {currency}")
 
