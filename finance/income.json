@@ -1,0 +1,11 @@
+{
+  "updated": "2026-02-03",
+  "monthly_income": [
+    {"source": "Kirill - Salary", "currency": "RUB", "amount": 500000},
+    {"source": "Moscow Flat Rental", "currency": "RUB", "amount": 42000},
+    {"source": "Sasha - Salary", "currency": "RUB", "amount": 0, "note": "Variable - update after finance talk"}
+  ],
+  "fixed_expenses": [
+    {"item": "Rent (Tbilisi)", "currency": "USD", "amount": 1500}
+  ]
+}

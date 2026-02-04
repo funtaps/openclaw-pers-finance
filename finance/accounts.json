@@ -1,0 +1,24 @@
+{
+  "updated": "2026-02-03",
+  "rates": {
+    "RUB_USD": 76.73,
+    "GEL_USD": 2.69
+  },
+  "accounts": [
+    {"name": "Alfa - Current (salary)", "currency": "RUB", "balance": 570000},
+    {"name": "Alfa - Savings", "currency": "RUB", "balance": 155000},
+    {"name": "Alfa - Deposit (until Apr 18)", "currency": "RUB", "balance": 1122000},
+    {"name": "T-Bank", "currency": "RUB", "balance": 0},
+    {"name": "BoG - Card (GEL)", "currency": "GEL", "balance": 400},
+    {"name": "BoG - Card (USD)", "currency": "USD", "balance": 125},
+    {"name": "BoG - Deposit", "currency": "USD", "balance": 4000},
+    {"name": "Sasha - TBD", "currency": "RUB", "balance": 0, "note": "Update after finance talk"}
+  ],
+  "assets": [
+    {"name": "Company Options", "currency": "RUB", "value": 4000000, "note": "Paper value"},
+    {"name": "Nissan Qashqai 2021", "currency": "RUB", "value": 2000000, "note": "Registered in Russia"}
+  ],
+  "passive_income": [
+    {"name": "Moscow Flat (rental)", "currency": "RUB", "monthly": 42000, "note": "Family asset, not for sale"}
+  ]
+}
