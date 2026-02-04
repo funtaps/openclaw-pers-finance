@@ -131,26 +131,68 @@ def main():
     print(f"  {fmt_num(available_gel)} GEL/month")
     
     # ========== EXPENSE TRACKING ==========
-    if len(expenses) > 1:  # More than just the example
+    if len(expenses) > 1:
         print_section("EXPENSE TRACKING")
-        
-        # Group by category
-        by_category = {}
-        total_tracked = 0
+
+        # Date range
+        dates = [datetime.strptime(e['date'], '%Y-%m-%d') for e in expenses]
+        start, end = min(dates), max(dates)
+        weeks  = max((end - start).days / 7.0, 1)
+        months = weeks / 4.33
+
+        # Bucket expenses
+        monthly_cat = {}   # category → total USD
+        yearly_items = {}  # description → total USD
+        oneoff_cat  = {}   # category → total USD
+
         for exp in expenses:
-            if exp['description'].startswith('Example:'):
-                continue
-            cat = exp['category']
             usd_val = to_usd(exp['amount'], exp['currency'], rates)
-            by_category[cat] = by_category.get(cat, 0) + usd_val
-            total_tracked += usd_val
-        
-        if by_category:
-            print("\n📋 Spending by Category:")
-            for cat, amount in sorted(by_category.items(), key=lambda x: -x[1]):
-                print(f"  {cat}: {fmt_usd(amount)}")
+            cat  = exp['category']
+            typ  = exp.get('type', 'monthly')
+
+            if typ == 'yearly':
+                yearly_items[exp['description']] = yearly_items.get(exp['description'], 0) + usd_val
+            elif typ == 'oneoff':
+                oneoff_cat[cat] = oneoff_cat.get(cat, 0) + usd_val
+            else:  # monthly
+                monthly_cat[cat] = monthly_cat.get(cat, 0) + usd_val
+
+        print(f"\nPeriod: {start.strftime('%b %d')} – {end.strftime('%b %d')} ({weeks:.1f} weeks)")
+
+        # 🔄 Monthly baseline (normalized to per-month)
+        monthly_total = sum(monthly_cat.values())
+        monthly_per_mo = monthly_total / months
+        print(f"\n🔄 MONTHLY (per month, normalized):")
+        for cat, total in sorted(monthly_cat.items(), key=lambda x: -x[1]):
+            print(f"  {cat:16s} {fmt_usd(total / months):>8s}/mo")
+        print(f"  ─────────────────────────────")
+        print(f"  {'Baseline':16s} {fmt_usd(monthly_per_mo):>8s}/mo")
+
+        # 📅 Yearly (amortized /12)
+        yearly_per_mo = 0
+        if yearly_items:
+            print(f"\n📅 YEARLY (amortized /12):")
+            for desc, total in sorted(yearly_items.items(), key=lambda x: -x[1]):
+                per_mo = total / 12
+                yearly_per_mo += per_mo
+                print(f"  {desc:30s} {fmt_usd(per_mo):>6s}/mo  (paid: {fmt_usd(total)})")
             print(f"  ─────────────────────────────")
-            print(f"  Total Tracked: {fmt_usd(total_tracked)}")
+            print(f"  {'Yearly total':30s} {fmt_usd(yearly_per_mo):>6s}/mo")
+
+        # 🎄 One-off
+        oneoff_total = sum(oneoff_cat.values())
+        oneoff_per_mo = oneoff_total / months if months > 0 else 0
+        if oneoff_cat:
+            print(f"\n🎄 ONE-OFF (this period):")
+            for cat, total in sorted(oneoff_cat.items(), key=lambda x: -x[1]):
+                print(f"  {cat:16s} {fmt_usd(total)}")
+            print(f"  ─────────────────────────────")
+            print(f"  {'Total':16s} {fmt_usd(oneoff_total)}  (avg {fmt_usd(oneoff_per_mo)}/mo)")
+
+        # 📊 Normalized monthly
+        normalized = monthly_per_mo + yearly_per_mo + oneoff_per_mo
+        print(f"\n📊 NORMALIZED MONTHLY: {fmt_usd(normalized)}/mo")
+        print(f"   baseline {fmt_usd(monthly_per_mo)} + yearly {fmt_usd(yearly_per_mo)} + one-off avg {fmt_usd(oneoff_per_mo)}")
     
     print("\n" + "="*50)
 
